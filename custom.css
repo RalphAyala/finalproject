@@ -27,8 +27,62 @@
   }  
   h2{
       font-family: 'Audiowide';
+      color:#3399ff;
   }  
   li{
       font-family: 'Audiowide';
       font-size: 25px;
   }
+  .container{
+    padding: 10px 20px;
+}
+p{
+    color:#ff5050;
+}
+  
+/*navbar*/  
+  
+  .affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container {
+    padding-top: 125px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    border-width: 0;
+    font-size: 2em;
+    font-family: 'Audiowide', sans-serif;
+}
+
+/*end navbar*/
+
+/*small & up*/
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+/*medium & up*/
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+/*large & up*/
+
+@media only screen and (min-width: 1200px) {
+    
+}
