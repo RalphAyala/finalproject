@@ -37,7 +37,7 @@
     padding: 10px 20px;
 }
 p{
-    color:#ff5050;
+    color:#ff5050 ;
 }
   
 /*navbar*/  
@@ -71,18 +71,56 @@ p{
 /*small & up*/
 
 @media only screen and (min-width: 768px) {
-    
+    h1{
+        font-size:100px;
+        color: Green;
+    }
+    h2{
+        font-size: 50px;
+    }
+    li{
+        font-size: 50px;
+        color:Green;
+    }
 }
 
 
 /*medium & up*/
 
 @media only screen and (min-width: 992px) {
-    
+    h1{
+        font-size:120px;
+        color: Yellow;
+    }
+    h2{
+        font-size: 80px;
+    }
+    li{
+        font-size: 60px;
+        color: yellow;
+    }
+    p{
+        font-size: 50px
+    }
 }
 
 /*large & up*/
 
 @media only screen and (min-width: 1200px) {
-    
+    h1{
+        font-size:120px;
+        color: Red;
+    }
+    h2{
+        font-size: 80px;
+        color: Green;
+    }
+    li{
+        font-size: 60px;
+        color: red;
+    }
+    p{
+        font-size: 50px;
+        color: lightblue;
+    }
 }
