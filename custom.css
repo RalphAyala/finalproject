@@ -39,7 +39,9 @@
 p{
     color:#ff5050 ;
 }
-  
+  bold{
+      color: white;
+  }
 /*navbar*/  
   
   .affix {
@@ -86,6 +88,9 @@ p{
         width: 300px;
         height: 200px;
     }
+    bold{
+        color:green;
+    }
 }
 
 
@@ -110,6 +115,9 @@ p{
         width: 600px;
         height: 300px;
     }
+    bold{
+        color: yellow;
+    }
 }
 
 /*large & up*/
@@ -130,5 +138,8 @@ p{
     p{
         font-size: 50px;
         color: lightblue;
+    }
+    bold{
+        color: red;
     }
 }
