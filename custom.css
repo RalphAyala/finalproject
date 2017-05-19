@@ -42,6 +42,12 @@ p{
   bold{
       color: white;
   }
+  a{
+        font-size: 23px;
+    }
+  w3-container{
+      height: 50px;
+  }
 /*navbar*/  
   
   .affix {
@@ -50,7 +56,7 @@ p{
 }
 
 .affix + .container {
-    padding-top: 125px;
+    padding-top: 200px;
 }
 
 .navbar .navbar-nav {
@@ -91,6 +97,13 @@ p{
     bold{
         color:green;
     }
+    a{
+        font-size: 23px;
+        text-align: center;
+    }
+    w3-container{
+      height: 50px;
+  }
 }
 
 
@@ -118,6 +131,10 @@ p{
     bold{
         color: yellow;
     }
+    a{
+        font-size: 28px;
+        text-align: center;
+    }
 }
 
 /*large & up*/
@@ -141,5 +158,9 @@ p{
     }
     bold{
         color: red;
+    }
+    a{
+        font-size: 3px;
+        text-align: center;
     }
 }
