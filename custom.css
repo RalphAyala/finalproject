@@ -45,9 +45,14 @@ p{
   a{
         font-size: 23px;
     }
-  w3-container{
-      height: 50px;
-  }
+  img{
+        width: 300px;
+        height: 200px;
+    }
+    .image:hover{
+     -webkit-transform: rotate(10deg) scale(1) skew(0deg) translate(0px);
+     -webkit-transition: All .8s ease-in-out;
+    }
 /*navbar*/  
   
   .affix {
@@ -160,7 +165,7 @@ p{
         color: red;
     }
     a{
-        font-size: 3px;
+        font-size: 30px;
         text-align: center;
     }
 }
